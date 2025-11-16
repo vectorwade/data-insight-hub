@@ -135,7 +135,8 @@ const Index = () => {
             <Card>
               <div className="p-6">
                 <Button
-                  className="w-full gap-2 bg-gradient-primary"
+                  variant="premium"
+                  className="w-full gap-2"
                   disabled={!parsedJson || isLoading}
                   size="lg"
                   onClick={handleGenerateInsights}
